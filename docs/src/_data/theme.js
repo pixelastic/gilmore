@@ -14,8 +14,8 @@ module.exports = {
       ],
     },
     {
-      name: 'API',
-      links: ['init', 'read', 'write'],
+      name: 'Repo',
+      links: ['root'],
     },
   ],
 };
