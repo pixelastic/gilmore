@@ -14,12 +14,18 @@ module.exports = {
       ],
     },
     {
-      name: 'Repo',
-      links: ['root', 'add', 'commit'],
-    },
-    {
-      name: 'Commit',
-      links: ['current'],
+      name: 'API',
+      links: [
+        'add',
+        'commit',
+        'head',
+        'init',
+        'log',
+        'newFile',
+        'run',
+        'status',
+        'write',
+      ],
     },
   ],
 };
