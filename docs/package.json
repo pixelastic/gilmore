@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "norska": "2.7.0",
+    "norska-theme-docs": "5.0.3"
+  },
+  "files": [],
+  "name": "gilmore-docs",
+  "private": true,
+  "scripts": {
+    "build": "../scripts/docs/build",
+    "build:prod": "../scripts/docs/build-prod",
+    "cms": "../scripts/docs/cms",
+    "lint": "../scripts/docs/lint",
+    "lint:fix": "../scripts/docs/lint-fix",
+    "release": "../scripts/release",
+    "serve": "../scripts/docs/serve",
+    "test": "../scripts/lib/test",
+    "test:watch": "../scripts/lib/test-watch"
+  },
+  "version": "0.0.1"
+}

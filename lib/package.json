@@ -1,0 +1,23 @@
+{
+  "name": "gilmore",
+  "version": "0.0.1",
+  "repository": "pixelastic/gilmore",
+  "homepage": "https://projects.pixelastic.com/gilmore/",
+  "author": "Tim Carry (@pixelastic)",
+  "license": "MIT",
+  "main": "main.js",
+  "files": ["*.js"],
+  "engines": {
+    "node": ">=14.17.0"
+  },
+  "scripts": {
+    "build": "../scripts/docs/build",
+    "build:prod": "../scripts/docs/build-prod",
+    "lint": "../scripts/lib/lint",
+    "lint:fix": "../scripts/lib/lint-fix",
+    "release": "../scripts/release",
+    "serve": "../scripts/docs/serve",
+    "test": "../scripts/lib/test",
+    "test:watch": "../scripts/lib/test-watch"
+  }
+}
