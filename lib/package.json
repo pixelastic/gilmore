@@ -8,7 +8,7 @@
   "main": "main.js",
   "files": [
     "*.js",
-    "repo/"
+    "methods/"
   ],
   "engines": {
     "node": ">=14.17.0"
@@ -26,6 +26,7 @@
   "dependencies": {
     "callsites": "3.1.0",
     "find-up": "5.0.0",
-    "firost": "2.16.2"
+    "firost": "2.16.2",
+    "golgoth": "2.1.0"
   }
 }

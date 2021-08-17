@@ -15,7 +15,11 @@ module.exports = {
     },
     {
       name: 'Repo',
-      links: ['root'],
+      links: ['root', 'add', 'commit'],
+    },
+    {
+      name: 'Commit',
+      links: ['current'],
     },
   ],
 };
