@@ -1,1 +1,31 @@
 @import 'theme:style.css';
+
+body {
+  /* Change the header background color */
+  .theme-header {
+    @apply bg-pink-7;
+  }
+  /* Overwrites color of icons as the default theme is gray, which works fine on
+   * light background but fails on solid colors
+   **/
+  .theme-icons,
+  .theme-icons a,
+  .theme-menu label {
+    @apply pink-2;
+  }
+  /* Change the current page marker color in the sidebar */
+  .theme-navigation-link-active {
+    @apply border-pink-7;
+  }
+  /* Change the color of links on hover in the sidebar */
+  .theme-navigation-link:hover {
+    @apply pink-6;
+  }
+  /* Change the color of the title underline */
+  .theme-title {
+    @apply border-pink-7;
+  }
+
+  /* DocSearch main color */
+  --docsearch-primary-color: #b83280;
+}

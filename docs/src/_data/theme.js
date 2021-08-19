@@ -9,23 +9,25 @@ module.exports = {
       links: [
         {
           title: 'Getting Started',
-          href: 'gettingStarted',
+          href: '/',
         },
       ],
     },
     {
-      name: 'API',
-      links: [
-        'add',
-        'commit',
-        'head',
-        'init',
-        'log',
-        'newFile',
-        'run',
-        'status',
-        'write',
-      ],
+      name: 'Actions',
+      links: ['init', 'add', 'commit'],
+    },
+    {
+      name: 'Commits',
+      links: ['currentCommit', 'commitList'],
+    },
+    {
+      name: 'Files',
+      links: ['status'],
+    },
+    {
+      name: 'Helpers',
+      links: ['run', 'write', 'newFile'],
     },
   ],
 };
