@@ -34,6 +34,10 @@ module.exports = {
       ],
     },
     {
+      name: 'Branches',
+      links: ['switchBranch', 'currentBranch', 'branchList', 'branchExists'],
+    },
+    {
       name: 'Helpers',
       links: ['run', 'newFile'],
     },
