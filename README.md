@@ -24,7 +24,7 @@ const repo = new Gilmore('/path/to/repo');
 
 (async () => {
   const head = await repo.currentCommit();
-  console.info(`The HEAD sha is ${head}`);
+  console.info(`The HEAD hash is ${head}`);
 })();
 ```
 

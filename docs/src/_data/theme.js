@@ -15,7 +15,7 @@ module.exports = {
     },
     {
       name: 'Actions',
-      links: ['init', 'add', 'commit'],
+      links: ['init', 'add', 'commit', 'commitAll'],
     },
     {
       name: 'Commits',
@@ -23,11 +23,11 @@ module.exports = {
     },
     {
       name: 'Files',
-      links: ['status'],
+      links: ['status', 'readFile', 'readFileJson', 'writeFile'],
     },
     {
       name: 'Helpers',
-      links: ['run', 'write', 'newFile'],
+      links: ['run', 'newFile'],
     },
   ],
 };
