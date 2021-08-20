@@ -19,11 +19,17 @@ module.exports = {
     },
     {
       name: 'Commits',
-      links: ['currentCommit', 'commitList'],
+      links: ['currentCommit', 'commitList', 'commitExists'],
     },
     {
       name: 'Files',
-      links: ['status', 'readFile', 'readFileJson', 'writeFile'],
+      links: [
+        'status',
+        'readFile',
+        'readFileJson',
+        'writeFile',
+        'writeJsonFile',
+      ],
     },
     {
       name: 'Helpers',
