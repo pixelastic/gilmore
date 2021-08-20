@@ -25,10 +25,12 @@ module.exports = {
       name: 'Files',
       links: [
         'status',
+        'changedFiles',
         'readFile',
         'readFileJson',
         'writeFile',
         'writeJsonFile',
+        'removeFile',
       ],
     },
     {

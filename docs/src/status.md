@@ -13,8 +13,8 @@ This is equivalent to calling `git status`.
 ```json
 [
   {
-    "path": "relative/path/to/file",
-    "type": "one of a new/added/modified/deleted"
+    "name": "relative/path/to/file",
+    "status": "one of a new/added/modified/deleted"
   },
   [...]
 ]
