@@ -6,6 +6,6 @@ title: currentCommit
 
 `await repo.currentCommit()`
 
-Returns a short hash of what is currently the `HEAD` of the repo. 
+Returns the hash of what is currently the `HEAD` of the repo. 
 
 Returns `false` if not in a git repo.

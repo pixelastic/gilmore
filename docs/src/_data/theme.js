@@ -15,21 +15,19 @@ module.exports = {
     },
     {
       name: 'Actions',
-      links: ['init', 'add', 'commit', 'commitAll'],
+      links: ['init', 'add', 'commit', 'commitAll', 'status'],
     },
     {
       name: 'Commits',
-      links: ['currentCommit', 'commitList', 'commitExists'],
+      links: ['currentCommit', 'commitList', 'commitExists', 'changedFiles'],
     },
     {
       name: 'Files',
       links: [
-        'status',
-        'changedFiles',
         'readFile',
         'readFileJson',
         'writeFile',
-        'writeJsonFile',
+        'writeFileJson',
         'removeFile',
       ],
     },
@@ -39,7 +37,7 @@ module.exports = {
     },
     {
       name: 'Helpers',
-      links: ['run', 'newFile'],
+      links: ['run', 'root'],
     },
   ],
 };

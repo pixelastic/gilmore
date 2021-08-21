@@ -2,8 +2,7 @@
 title: readFileJson
 ---
 
-<div class="lead">Reads a `.json` file at the specified commit and returns its
-parsed content.</div>
+<div class="lead">Parses and returns a <code>.json</code> file at the specified commit</div>
 
 `await repo.readFileJson(filepath[, commit])`
 

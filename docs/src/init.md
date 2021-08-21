@@ -2,7 +2,7 @@
 title: init
 ---
 
-<div class="lead">Initialize a git repository in a directory</div>
+<div class="lead">Initialize a git repository</div>
 
 `await repo.init()`
 

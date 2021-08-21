@@ -14,7 +14,7 @@ If `toCommit` is empty, the current `HEAD` will be used.
 [
   {
     "name": "relative/path/to/file",
-    "status": "one of a new/added/modified/deleted"
+    "status": "one of a added/modified/deleted"
   },
   [...]
 ]
