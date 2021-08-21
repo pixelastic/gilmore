@@ -15,7 +15,7 @@ module.exports = {
     },
     {
       name: 'Actions',
-      links: ['init', 'add', 'commit', 'commitAll', 'status'],
+      links: ['init', 'add', 'status', 'commit', 'commitAll'],
     },
     {
       name: 'Commits',
@@ -23,7 +23,7 @@ module.exports = {
     },
     {
       name: 'Branches',
-      links: ['switchBranch', 'currentBranch', 'branchList', 'branchExists'],
+      links: ['currentBranch', 'branchList', 'branchExists', 'switchBranch'],
     },
     {
       name: 'Files',
