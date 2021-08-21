@@ -22,6 +22,10 @@ module.exports = {
       links: ['currentCommit', 'commitList', 'commitExists', 'changedFiles'],
     },
     {
+      name: 'Branches',
+      links: ['switchBranch', 'currentBranch', 'branchList', 'branchExists'],
+    },
+    {
       name: 'Files',
       links: [
         'readFile',
@@ -30,10 +34,6 @@ module.exports = {
         'writeFileJson',
         'removeFile',
       ],
-    },
-    {
-      name: 'Branches',
-      links: ['switchBranch', 'currentBranch', 'branchList', 'branchExists'],
     },
     {
       name: 'Helpers',
