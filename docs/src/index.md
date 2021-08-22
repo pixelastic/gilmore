@@ -6,7 +6,7 @@ title: Gilmore
 
 ## Installation
 
-```
+```sh
 yarn add gilmore
 ```
 
@@ -25,3 +25,13 @@ const repo = new Gilmore('/path/to/repo');
 })();
 ```
 
+## Options
+
+In addition to the repository root as first argument, you can also pass an option
+object as the second argument.
+
+The accepted options are as follow:
+
+| Name                  | Description                                                                                                                           | Default value |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| `globalConfig` | By default, git reads the `~/.gitconfig` file for additional configuration. Set this to `false` to only use the local repository config | `true`        |

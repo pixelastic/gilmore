@@ -37,7 +37,7 @@ module.exports = {
     },
     {
       name: 'Config',
-      links: ['getConfig', 'setConfig'],
+      links: ['getConfig', 'setConfig', 'deleteConfig'],
     },
     {
       name: 'Helpers',
