@@ -36,6 +36,10 @@ module.exports = {
       ],
     },
     {
+      name: 'Config',
+      links: ['getConfig', 'setConfig'],
+    },
+    {
       name: 'Helpers',
       links: ['run', 'root'],
     },
