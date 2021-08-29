@@ -13,8 +13,8 @@ Any file staged through the [add](/add/) method will be commited.
 By default, git will attempt to read the commit author name and email from the
 following sources, in order of priority:
 
-- The `GIT_AUTHOR_NAME` and `GIT_AUTHOR_EMAIL`
 - The local `user.name` and `user.email` git config
+- The `GIT_USER_NAME` and `GIT_USER_EMAIL` environment variables
 - The global `user.name` and `user.email` git config
 
 If no suitable name or email is available, Gilmore will throw
