@@ -23,7 +23,12 @@ module.exports = {
     },
     {
       name: 'Branches',
-      links: ['currentBranch', 'branchList', 'branchExists', 'switchBranch'],
+      links: [
+        'currentBranchName',
+        'branchList',
+        'branchExists',
+        'switchBranch',
+      ],
     },
     {
       name: 'Files',

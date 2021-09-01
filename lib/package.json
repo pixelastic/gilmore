@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "firost": "2.16.4",
-    "golgoth": "2.1.0"
+    "golgoth": "2.1.0",
+    "parse-github-repo-url": "1.4.1"
   }
 }
