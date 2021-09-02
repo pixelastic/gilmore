@@ -4,9 +4,18 @@ title: commit
 
 <div class="lead">Commits staged files</div>
 
-`await repo.commit(message)`
+`await repo.commit(message[, options])`
 
-Any file staged through the [add](/add/) method will be commited.
+Any file staged through the [add][1] method will be committed.
+
+## Options
+
+The following options are accepted:
+
+| Name     | Description                              | Default value |
+| -------- | ---------------------------------------- | ------------- |
+| `body`   | Additional commit body                   | (empty)       |
+| `skipCi` | If set to `true`, will skip the CI build | `false`       |
 
 ## Name and email
 
@@ -22,5 +31,7 @@ a `GILMORE_COMMIT_AUTHOR_IDENTITY_UNKNOWN`.
 
 ## Other errors
 
-- If there are no files to be commited, a `GILMORE_COMMIT_NOTHING_TO_COMMIT`
+- If there are no files to be committed, a `GILMORE_COMMIT_NOTHING_TO_COMMIT`
   error will be thrown.
+
+[1]: /add/

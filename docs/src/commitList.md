@@ -15,18 +15,19 @@ The list is ordered with the most recent commit first.
 [
   {
     "hash": "1ce8ffe",
-    "message": "commit message",
+    "subject": "commit message",
+    "body": "extended commit body",
     "changedFiles": [
       {
         "name": "relative/path/to/file",
-        "status": "one of a new/added/modified/deleted"
+        "status": "one of a new/added/modified/deleted",
       },
       [...]
     ],
     "author": {
       "name": "Gilmore",
-      "email": "gilmore@gloriousgood.com"
-    }
+      "email": "gilmore@gloriousgood.com",
+    },
   },
   [...]
 ]
