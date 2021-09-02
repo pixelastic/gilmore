@@ -12,11 +12,12 @@ title: branchList
 [
   {
     "name": "master",
-    "isCurrent": true
+    "isCurrent": true,
   },
   {
     "name": "feat/branch-list",
-    "isCurrent": false
+    "isCurrent": false,
+  },
   [...]
 ]
 ```

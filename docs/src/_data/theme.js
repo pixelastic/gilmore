@@ -18,6 +18,16 @@ module.exports = {
       links: ['init', 'add', 'status', 'commit', 'commitAll'],
     },
     {
+      name: 'Files',
+      links: [
+        'readFile',
+        'readFileJson',
+        'writeFile',
+        'writeFileJson',
+        'removeFile',
+      ],
+    },
+    {
       name: 'Commits',
       links: ['currentCommit', 'commitList', 'commitExists', 'changedFiles'],
     },
@@ -31,14 +41,20 @@ module.exports = {
       ],
     },
     {
-      name: 'Files',
+      name: 'Remotes',
       links: [
-        'readFile',
-        'readFileJson',
-        'writeFile',
-        'writeFileJson',
-        'removeFile',
+        'currentRemoteName',
+        'remoteList',
+        'remoteExists',
+        'getRemote',
+        'createRemote',
+        'switchRemote',
+        'setRemote',
       ],
+    },
+    {
+      name: 'GitHub',
+      links: ['githubRepoSlug', 'githubRepoOwner', 'githubRepoName'],
     },
     {
       name: 'Config',
