@@ -15,7 +15,7 @@ module.exports = {
     },
     {
       name: 'Actions',
-      links: ['init', 'add', 'status', 'commit', 'commitAll'],
+      links: ['init', 'add', 'status', 'commit', 'commitAll', 'push'],
     },
     {
       name: 'Files',
