@@ -12,10 +12,11 @@ Any file staged through the [add][1] method will be committed.
 
 The following options are accepted:
 
-| Name     | Description                              | Default value |
-| -------- | ---------------------------------------- | ------------- |
-| `body`   | Additional commit body                   | (empty)       |
-| `skipCi` | If set to `true`, will skip the CI build | `false`       |
+| Name        | Description                                                               | Default value |
+| ----------- | ------------------------------------------------------------------------- | ------------- |
+| `body`      | Additional commit body                                                    | (empty)       |
+| `skipCi`    | If set to `true`, will skip the CI build (adding `[skip ci]` to the body) | `false`       |
+| `skipHooks` | If set to `true`, will skip the git hooks (similar to `--no-verify`)      | `false`       |
 
 ## Name and email
 
