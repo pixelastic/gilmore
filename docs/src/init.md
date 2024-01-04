@@ -6,7 +6,7 @@ title: init
 
 `await repo.init([options])`
 
-This is equivalent to calling `git init`.
+This will call `git init` and set the default branch name to `main`.
 
 ## Options
 

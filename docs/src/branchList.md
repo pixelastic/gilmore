@@ -11,7 +11,7 @@ title: branchList
 ```json
 [
   {
-    "name": "master",
+    "name": "main",
     "isCurrent": true,
   },
   {
