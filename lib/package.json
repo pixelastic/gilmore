@@ -1,6 +1,7 @@
 {
   "name": "gilmore",
   "version": "0.2.0",
+  "description": "Toolbox for git and GitHub",
   "repository": "pixelastic/gilmore",
   "homepage": "https://projects.pixelastic.com/gilmore/",
   "author": "Tim Carry (@pixelastic)",

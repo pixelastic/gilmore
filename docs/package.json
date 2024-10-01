@@ -5,6 +5,7 @@
   },
   "files": [],
   "name": "gilmore-docs",
+  "description": "Documentation for Gilmore, a toolbox for git and GitHub",
   "private": true,
   "scripts": {
     "build": "../scripts/docs/build",
