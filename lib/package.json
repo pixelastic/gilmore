@@ -15,14 +15,16 @@
     "node": ">=14.17.0"
   },
   "scripts": {
-    "build": "../scripts/docs/build",
-    "build:prod": "../scripts/docs/build-prod",
-    "lint": "../scripts/lib/lint",
-    "lint:fix": "../scripts/lib/lint-fix",
-    "release": "../scripts/release",
-    "serve": "../scripts/docs/serve",
-    "test": "../scripts/lib/test",
-    "test:watch": "../scripts/lib/test-watch"
+    "build": "ABERLAAS_CWD=$INIT_CWD yarn g:build",
+    "build:prod": "ABERLAAS_CWD=$INIT_CWD yarn g:build:prod",
+    "cms": "ABERLAAS_CWD=$INIT_CWD yarn g:cms",
+    "serve": "ABERLAAS_CWD=$INIT_CWD yarn g:serve",
+    "release": "ABERLAAS_CWD=$INIT_CWD yarn g:release",
+    "test": "ABERLAAS_CWD=$INIT_CWD yarn g:test",
+    "test:watch": "ABERLAAS_CWD=$INIT_CWD yarn g:test:watch",
+    "compress": "ABERLAAS_CWD=$INIT_CWD yarn g:compress",
+    "lint": "ABERLAAS_CWD=$INIT_CWD yarn g:lint",
+    "lint:fix": "ABERLAAS_CWD=$INIT_CWD yarn g:lint:fix"
   },
   "dependencies": {
     "firost": "2.17.0",
