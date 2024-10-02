@@ -6154,6 +6154,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cacheable-request@npm:^7.0.2":
+  version: 7.0.4
+  resolution: "cacheable-request@npm:7.0.4"
+  dependencies:
+    clone-response: "npm:^1.0.2"
+    get-stream: "npm:^5.1.0"
+    http-cache-semantics: "npm:^4.0.0"
+    keyv: "npm:^4.0.0"
+    lowercase-keys: "npm:^2.0.0"
+    normalize-url: "npm:^6.0.1"
+    responselike: "npm:^2.0.0"
+  checksum: 0834a7d17ae71a177bc34eab06de112a43f9b5ad05ebe929bec983d890a7d9f2bc5f1aa8bb67ea2b65e07a3bc74bea35fa62dd36dbac52876afe36fdcf83da41
+  languageName: node
+  linkType: hard
+
 "cachedir@npm:^2.3.0":
   version: 2.3.0
   resolution: "cachedir@npm:2.3.0"
@@ -6438,6 +6453,25 @@ __metadata:
     fsevents:
       optional: true
   checksum: 1076953093e0707c882a92c66c0f56ba6187831aa51bb4de878c1fec59ae611a3bf02898f190efec8e77a086b8df61c2b2a3ea324642a0558bdf8ee6c5dc9ca1
+  languageName: node
+  linkType: hard
+
+"chokidar@npm:3.6.0":
+  version: 3.6.0
+  resolution: "chokidar@npm:3.6.0"
+  dependencies:
+    anymatch: "npm:~3.1.2"
+    braces: "npm:~3.0.2"
+    fsevents: "npm:~2.3.2"
+    glob-parent: "npm:~5.1.2"
+    is-binary-path: "npm:~2.1.0"
+    is-glob: "npm:~4.0.1"
+    normalize-path: "npm:~3.0.0"
+    readdirp: "npm:~3.6.0"
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  checksum: 8361dcd013f2ddbe260eacb1f3cb2f2c6f2b0ad118708a343a5ed8158941a39cb8fb1d272e0f389712e74ee90ce8ba864eece9e0e62b9705cb468a2f6d917462
   languageName: node
   linkType: hard
 
@@ -7763,6 +7797,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dayjs@npm:1.11.10":
+  version: 1.11.10
+  resolution: "dayjs@npm:1.11.10"
+  checksum: 4de9af50639d47df87f2e15fa36bb07e0f9ed1e9c52c6caa1482788ee9a384d668f1dbd00c54f82aaab163db07d61d2899384b8254da3a9184fc6deca080e2fe
+  languageName: node
+  linkType: hard
+
 "dayjs@npm:1.9.6":
   version: 1.9.6
   resolution: "dayjs@npm:1.9.6"
@@ -7849,6 +7890,13 @@ __metadata:
   version: 0.2.0
   resolution: "decode-uri-component@npm:0.2.0"
   checksum: dbc3c72e4a740703f76fb3f51e35bb81546aa3e8c7897e015b8bc289813d3044ad6eaa6048fbb43f6b7b34ef005527b7511da50399caa78b91ee39266a341822
+  languageName: node
+  linkType: hard
+
+"decode-uri-component@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "decode-uri-component@npm:0.2.2"
+  checksum: 1f4fa54eb740414a816b3f6c24818fbfcabd74ac478391e9f4e2282c994127db02010ce804f3d08e38255493cfe68608b3f5c8e09fd6efc4ae46c807691f7a31
   languageName: node
   linkType: hard
 
@@ -10096,34 +10144,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"firost@npm:2.17.0":
-  version: 2.17.0
-  resolution: "firost@npm:2.17.0"
-  dependencies:
-    callsites: "npm:3.1.0"
-    chokidar: "npm:3.5.2"
-    clear-module: "npm:4.1.1"
-    eventemitter2: "npm:6.4.4"
-    execa: "npm:5.1.1"
-    find-up: "npm:5.0.0"
-    fs-extra: "npm:10.0.0"
-    globby: "npm:11.0.4"
-    golgoth: "npm:2.1.0"
-    inquirer: "npm:8.1.2"
-    is-glob: "npm:4.0.1"
-    json-stable-stringify: "npm:1.0.1"
-    nanoid: "npm:3.1.25"
-    normalize-url: "npm:6.1.0"
-    ora: "npm:5.4.1"
-    std-mocks: "npm:1.0.1"
-    strip-ansi: "npm:6.0.0"
-    temp-dir: "npm:2.0.0"
-    untildify: "npm:4.0.0"
-    which: "npm:2.0.2"
-  checksum: c6722f2d39eddd509be624a62adb21436432c3b1b3646110c3119cc002ef79fa4be8cd0c62e43551a51624b642cce0f4d8dc5a2c4c1cdbb70c22ed9394a89e98
-  languageName: node
-  linkType: hard
-
 "firost@npm:3.1.0":
   version: 3.1.0
   resolution: "firost@npm:3.1.0"
@@ -10149,6 +10169,35 @@ __metadata:
     untildify: "npm:4.0.0"
     which: "npm:2.0.2"
   checksum: 955eb739769572d23c309353d1f91988759d1806411a1e9420a61ffb8f4c9b46828627355806d997ee071bded5792c4ef46cdbe2db35d91d0490e73fb48fee33
+  languageName: node
+  linkType: hard
+
+"firost@npm:3.5.0":
+  version: 3.5.0
+  resolution: "firost@npm:3.5.0"
+  dependencies:
+    callsites: "npm:3.1.0"
+    chokidar: "npm:3.6.0"
+    clear-module: "npm:4.1.2"
+    eventemitter2: "npm:6.4.9"
+    execa: "npm:5.1.1"
+    find-up: "npm:5.0.0"
+    fs-extra: "npm:10.1.0"
+    globby: "npm:11.1.0"
+    golgoth: "npm:2.4.0"
+    inquirer: "npm:8.2.6"
+    is-glob: "npm:4.0.3"
+    json-stable-stringify: "npm:1.1.1"
+    nanoid: "npm:3.3.7"
+    normalize-url: "npm:6.1.0"
+    ora: "npm:5.4.1"
+    rev-hash: "npm:4.1.0"
+    std-mocks: "npm:1.0.1"
+    strip-ansi: "npm:6.0.1"
+    temp-dir: "npm:2.0.0"
+    untildify: "npm:4.0.0"
+    which: "npm:2.0.2"
+  checksum: f9e5fbc359d3a0a3c65a76a2076847e263b8af4806909296efe5d2d9e82509352fa194a6325c572a1591ba6836fbe6aff86f0a30dbce11742d01c4a5ab8d46bc
   languageName: node
   linkType: hard
 
@@ -10803,8 +10852,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "gilmore@workspace:lib"
   dependencies:
-    firost: "npm:2.17.0"
-    golgoth: "npm:2.1.0"
+    firost: "npm:3.5.0"
+    golgoth: "npm:2.4.0"
     parse-github-repo-url: "npm:1.4.1"
   languageName: unknown
   linkType: soft
@@ -11155,6 +11204,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"golgoth@npm:2.4.0":
+  version: 2.4.0
+  resolution: "golgoth@npm:2.4.0"
+  dependencies:
+    chalk: "npm:4.1.2"
+    dayjs: "npm:1.11.10"
+    dedent: "npm:0.7.0"
+    flat: "npm:5.0.2"
+    got: "npm:11.8.6"
+    lodash: "npm:4.17.21"
+    p-all: "npm:3.0.0"
+    p-map: "npm:4.0.0"
+    p-map-series: "npm:2.1.0"
+    p-props: "npm:4.0.0"
+    pify: "npm:5.0.0"
+    query-string: "npm:7.1.3"
+    time-span: "npm:4.0.0"
+  checksum: adf37c4498c4539355d01fd3c874b4922ac2267feedfddbd8fcd7e52e36f815742739e13e99fe46fe887e5f88fde2b6cdc9ddd784a77c3b4372eddfee6d0eba5
+  languageName: node
+  linkType: hard
+
 "gonzales-pe@npm:^4.2.3, gonzales-pe@npm:^4.3.0":
   version: 4.3.0
   resolution: "gonzales-pe@npm:4.3.0"
@@ -11210,6 +11280,25 @@ __metadata:
     p-cancelable: "npm:^2.0.0"
     responselike: "npm:^2.0.0"
   checksum: 12fc2f5ffeed74746b75764c304f9dcd679edb593a9d079e8235ca3a2a112ab500702a81f693573a389c198c678f9b0e827921a20cdb29c90dc8897a37432419
+  languageName: node
+  linkType: hard
+
+"got@npm:11.8.6":
+  version: 11.8.6
+  resolution: "got@npm:11.8.6"
+  dependencies:
+    "@sindresorhus/is": "npm:^4.0.0"
+    "@szmarczak/http-timer": "npm:^4.0.5"
+    "@types/cacheable-request": "npm:^6.0.1"
+    "@types/responselike": "npm:^1.0.0"
+    cacheable-lookup: "npm:^5.0.3"
+    cacheable-request: "npm:^7.0.2"
+    decompress-response: "npm:^6.0.0"
+    http2-wrapper: "npm:^1.0.0-beta.5.2"
+    lowercase-keys: "npm:^2.0.0"
+    p-cancelable: "npm:^2.0.0"
+    responselike: "npm:^2.0.0"
+  checksum: 754dd44877e5cf6183f1e989ff01c648d9a4719e357457bd4c78943911168881f1cfb7b2cb15d885e2105b3ad313adb8f017a67265dd7ade771afdb261ee8cb1
   languageName: node
   linkType: hard
 
@@ -13372,6 +13461,18 @@ __metadata:
     jsonify: "npm:^0.0.1"
     object-keys: "npm:^1.1.1"
   checksum: 8888ac86dbf55c1d494bdf40705171c30884686911c37383d3aab777754bf5c1d60dc7a4dfd67f32ba37b184da5c99948a382f1c2912895a35453002e253314b
+  languageName: node
+  linkType: hard
+
+"json-stable-stringify@npm:1.1.1":
+  version: 1.1.1
+  resolution: "json-stable-stringify@npm:1.1.1"
+  dependencies:
+    call-bind: "npm:^1.0.5"
+    isarray: "npm:^2.0.5"
+    jsonify: "npm:^0.0.1"
+    object-keys: "npm:^1.1.1"
+  checksum: 3801e3eeccbd030afb970f54bea690a079cfea7d9ed206a1b17ca9367f4b7772c764bf77a48f03e56b50e5f7ee7d11c52339fe20d8d7ccead003e4ca69e4cfde
   languageName: node
   linkType: hard
 
@@ -18742,6 +18843,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"query-string@npm:7.1.3":
+  version: 7.1.3
+  resolution: "query-string@npm:7.1.3"
+  dependencies:
+    decode-uri-component: "npm:^0.2.2"
+    filter-obj: "npm:^1.1.0"
+    split-on-first: "npm:^1.0.0"
+    strict-uri-encode: "npm:^2.0.0"
+  checksum: a896c08e9e0d4f8ffd89a572d11f668c8d0f7df9c27c6f49b92ab31366d3ba0e9c331b9a620ee747893436cd1f2f821a6327e2bc9776bde2402ac6c270b801b2
+  languageName: node
+  linkType: hard
+
 "query-string@npm:^5.0.1":
   version: 5.1.1
   resolution: "query-string@npm:5.1.1"
@@ -19504,6 +19617,13 @@ __metadata:
   version: 3.0.0
   resolution: "rev-hash@npm:3.0.0"
   checksum: 0630914b224403bd04333a2e57e773e062ce43b6466949fc3f26223801962a1718cc829e2dc8e245ea178b30419c43aa1131c8f35818511f08d9b2afb65d18d3
+  languageName: node
+  linkType: hard
+
+"rev-hash@npm:4.1.0":
+  version: 4.1.0
+  resolution: "rev-hash@npm:4.1.0"
+  checksum: d80800c96f3e60965f73c519a5de231fc2191eb7333015522282240ca94b6f93667767fe7a6f61ef1e8113578a957cf4ff9bb7db015bc7da096241a72a23d753
   languageName: node
   linkType: hard
 
