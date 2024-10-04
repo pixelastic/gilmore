@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "gilmore-monorepo",
+  "type": "module",
   "description": "gilmore monorepo",
   "homepage": "https://projects.pixelastic.com/gilmore/",
   "keywords": [],
@@ -10,7 +11,7 @@
   ],
   "files": [],
   "devDependencies": {
-    "aberlaas": "1.25.0",
+    "aberlaas": "2.8.0",
     "lerna": "4.0.0"
   },
   "scripts": {
@@ -18,12 +19,23 @@
     "build:prod": "./scripts/docs/build-prod",
     "ci": "./scripts/ci",
     "cms": "./scripts/docs/cms",
-    "husky:precommit": "./scripts/husky-precommit",
+    "compress": "./scripts/compress",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
-    "release": "./scripts/release",
+    "release": "./scripts/lib/release",
     "serve": "./scripts/docs/serve",
     "test": "./scripts/lib/test",
-    "test:watch": "./scripts/lib/test-watch"
-  }
+    "test:watch": "./scripts/lib/test-watch",
+    "g:build": "./scripts/docs/build",
+    "g:build:prod": "./scripts/docs/build-prod",
+    "g:cms": "./scripts/docs/cms",
+    "g:compress": "./scripts/compress",
+    "g:lint": "./scripts/lint",
+    "g:lint:fix": "./scripts/lint-fix",
+    "g:release": "./scripts/lib/release",
+    "g:serve": "./scripts/docs/serve",
+    "g:test": "./scripts/lib/test",
+    "g:test:watch": "./scripts/lib/test-watch"
+  },
+  "packageManager": "yarn@4.0.2"
 }

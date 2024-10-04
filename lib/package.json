@@ -1,31 +1,41 @@
 {
   "name": "gilmore",
   "version": "0.2.0",
+  "author": "Tim Carry (@pixelastic)",
+  "description": "Toolbox for git and GitHub",
+  "keywords": [
+    "git"
+  ],
   "repository": "pixelastic/gilmore",
   "homepage": "https://projects.pixelastic.com/gilmore/",
-  "author": "Tim Carry (@pixelastic)",
+  "type": "module",
   "license": "MIT",
-  "main": "main.js",
+  "engines": {
+    "node": ">=18.18.0"
+  },
   "files": [
     "*.js",
     "methods/"
   ],
-  "engines": {
-    "node": ">=14.17.0"
+  "exports": {
+    ".": "./main.js"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "firost": "3.5.0",
+    "golgoth": "2.4.0",
+    "parse-github-repo-url": "1.4.1"
   },
   "scripts": {
-    "build": "../scripts/docs/build",
-    "build:prod": "../scripts/docs/build-prod",
-    "lint": "../scripts/lib/lint",
-    "lint:fix": "../scripts/lib/lint-fix",
-    "release": "../scripts/release",
-    "serve": "../scripts/docs/serve",
-    "test": "../scripts/lib/test",
-    "test:watch": "../scripts/lib/test-watch"
-  },
-  "dependencies": {
-    "firost": "2.17.0",
-    "golgoth": "2.1.0",
-    "parse-github-repo-url": "1.4.1"
+    "build": "ABERLAAS_CWD=$INIT_CWD yarn g:build",
+    "build:prod": "ABERLAAS_CWD=$INIT_CWD yarn g:build:prod",
+    "cms": "ABERLAAS_CWD=$INIT_CWD yarn g:cms",
+    "serve": "ABERLAAS_CWD=$INIT_CWD yarn g:serve",
+    "release": "ABERLAAS_CWD=$INIT_CWD yarn g:release",
+    "test": "ABERLAAS_CWD=$INIT_CWD yarn g:test",
+    "test:watch": "ABERLAAS_CWD=$INIT_CWD yarn g:test:watch",
+    "compress": "ABERLAAS_CWD=$INIT_CWD yarn g:compress",
+    "lint": "ABERLAAS_CWD=$INIT_CWD yarn g:lint",
+    "lint:fix": "ABERLAAS_CWD=$INIT_CWD yarn g:lint:fix"
   }
 }
