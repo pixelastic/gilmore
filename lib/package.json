@@ -22,7 +22,7 @@
   },
   "main": "main.js",
   "dependencies": {
-    "firost": "3.5.0",
+    "firost": "4.3.0",
     "golgoth": "2.4.0",
     "parse-github-repo-url": "1.4.1"
   },
