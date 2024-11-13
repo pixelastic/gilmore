@@ -3,10 +3,8 @@ import * as url from 'url';
 import config from 'aberlaas/configs/vite';
 
 const rootPath = url.fileURLToPath(new URL('.', import.meta.url));
-const gilmoreSetupFile = path.resolve(rootPath, 'vite.setupFile.js');
+const globalSetupFile = path.resolve(rootPath, 'vite.globalSetup.js');
 
-config.test.setupFiles = [
-  ...new Set([...config.test.setupFiles, gilmoreSetupFile]),
-];
+config.test.globalSetup = globalSetupFile;
 
 export default config;
