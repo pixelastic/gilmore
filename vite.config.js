@@ -1,5 +1,5 @@
-import path from 'path';
-import * as url from 'url';
+import path from 'node:path';
+import * as url from 'node:url';
 import config from 'aberlaas/configs/vite';
 
 const rootPath = url.fileURLToPath(new URL('.', import.meta.url));
