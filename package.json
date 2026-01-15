@@ -15,27 +15,17 @@
     "lerna": "4.0.0"
   },
   "scripts": {
-    "build": "./scripts/docs/build",
-    "build:prod": "./scripts/docs/build-prod",
+    "build": "./scripts/build",
+    "build:prod": "./scripts/build-prod",
     "ci": "./scripts/ci",
     "cms": "./scripts/docs/cms",
     "compress": "./scripts/compress",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
-    "release": "./scripts/lib/release",
+    "release": "./scripts/release",
     "serve": "./scripts/docs/serve",
-    "test": "./scripts/lib/test",
-    "test:watch": "./scripts/lib/test-watch",
-    "g:build": "./scripts/docs/build",
-    "g:build:prod": "./scripts/docs/build-prod",
-    "g:cms": "./scripts/docs/cms",
-    "g:compress": "./scripts/compress",
-    "g:lint": "./scripts/lint",
-    "g:lint:fix": "./scripts/lint-fix",
-    "g:release": "./scripts/lib/release",
-    "g:serve": "./scripts/docs/serve",
-    "g:test": "./scripts/lib/test",
-    "g:test:watch": "./scripts/lib/test-watch"
+    "test": "./scripts/test",
+    "test:watch": "./scripts/test-watch"
   },
   "packageManager": "yarn@4.0.2"
 }
