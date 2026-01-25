@@ -27,5 +27,5 @@
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"
   },
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.12.0"
 }
