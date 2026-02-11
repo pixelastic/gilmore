@@ -1,14 +1,18 @@
 {
   "name": "gilmore",
   "version": "1.2.0",
-  "author": "Tim Carry (@pixelastic)",
+  "type": "module",
   "description": "Toolbox for git and GitHub",
+  "author": "Tim Carry <tim@pixelastic.com>",
+  "homepage": "https://projects.pixelastic.com/gilmore/",
   "keywords": [
     "git"
   ],
-  "repository": "pixelastic/gilmore",
-  "homepage": "https://projects.pixelastic.com/gilmore/",
-  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixelastic/gilmore"
+  },
+  "sideEffects": false,
   "license": "MIT",
   "engines": {
     "node": ">=18.18.0"
