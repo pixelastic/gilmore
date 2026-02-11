@@ -26,8 +26,8 @@
   },
   "main": "main.js",
   "dependencies": {
-    "firost": "5.3.0",
-    "golgoth": "3.0.0",
+    "firost": "5.6.1",
+    "golgoth": "3.1.0",
     "parse-github-repo-url": "1.4.1"
   },
   "scripts": {
