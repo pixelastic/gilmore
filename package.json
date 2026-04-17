@@ -8,7 +8,7 @@
   ],
   "description": "gilmore monorepo",
   "homepage": "https://projects.pixelastic.com/gilmore/",
-  "packageManager": "yarn@4.12.0",
+  "packageManager": "yarn@4.14.1",
   "devDependencies": {
     "aberlaas": "2.23.0"
   },
