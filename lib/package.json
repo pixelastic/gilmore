@@ -18,8 +18,8 @@
     "node": ">=18.18.0"
   },
   "files": [
-    "*.js",
-    "methods/"
+    "./*.js",
+    "./methods/"
   ],
   "exports": {
     ".": "./main.js"
