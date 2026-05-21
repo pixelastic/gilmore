@@ -1,6 +1,6 @@
 {
   "name": "gilmore",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "type": "module",
   "description": "Toolbox for git and GitHub",
   "author": "Tim Carry <tim@pixelastic.com>",
