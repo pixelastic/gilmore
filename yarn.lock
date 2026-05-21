@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 10
   cacheKey: 10c0
 
 "@algolia/cache-browser-local-storage@npm:4.10.3":
@@ -11575,7 +11575,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gilmore@npm:1.2.0, gilmore@workspace:lib":
+"gilmore@npm:1.2.0":
+  version: 1.2.0
+  resolution: "gilmore@npm:1.2.0"
+  dependencies:
+    firost: "npm:5.3.0"
+    golgoth: "npm:3.0.0"
+    parse-github-repo-url: "npm:1.4.1"
+  checksum: 10c0/32a67335a54ed77a9313562662b3004619efe58bd3a9f11a9ecae0ea78186e152ee8f079be08a5e3988621c6267755b87ac656cbfd4285295a5ba4735f59341e
+  languageName: node
+  linkType: hard
+
+"gilmore@workspace:lib":
   version: 0.0.0-use.local
   resolution: "gilmore@workspace:lib"
   dependencies:
