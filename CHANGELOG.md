@@ -1,3 +1,11 @@
+## v1.2.2
+
+[compare changes](https://github.com/pixelastic/gilmore/compare/v1.2.1...v1.2.2)
+
+### Bug Fixes
+
+- **run:** Clear git hook env vars in subprocesses ([5501e36](https://github.com/pixelastic/gilmore/commit/5501e36))
+
 ## v1.2.1
 
 [compare changes](https://github.com/pixelastic/gilmore/compare/v1.2.0...v1.2.1)
