@@ -1,9 +1,0 @@
-[
-  {
-    "id": "01",
-    "issue": "issues/01-clear-git-env-vars.md",
-    "done": true,
-    "blocked_by": [],
-    "recap": "Clear GIT_DIR/GIT_WORK_TREE/GIT_INDEX_FILE/GIT_CEILING_DIRECTORIES in run() env, with behavioral tests in run.js and status.js"
-  }
-]
