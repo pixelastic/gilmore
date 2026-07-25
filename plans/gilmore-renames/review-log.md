@@ -29,3 +29,11 @@ R: 'modified', // renamed
 ```
 **Problem:** Stale mapping contradicts the spec's rename intent
 **Reason skipped:** Only used by the temporary `parseStatus` bridge; `parseNameStatus` handles R before the lookup
+
+## Issue 02 — Status short parser
+### R symbol not in symbolMapping fallthrough
+```javascript
+if (symbol === 'R' && split[2] === '->') {
+```
+**Problem:** If a rename line fails the `->` check, `R` is not in `symbolMapping` and falls through to produce `{ status: 'R' }`.
+**Reason skipped:** Out of scope. `R` with similarity suffix (e.g. `R100`) only occurs in `--name-status` format, not `--short`. The spec explicitly defines detection via `->` in `split[2]`.
