@@ -2,8 +2,9 @@
   {
     "id": "01",
     "issue": "issues/01-extract-parse-name-status.md",
-    "done": false,
-    "blocked_by": []
+    "done": true,
+    "blocked_by": [],
+    "recap": "Extracted rename-aware parseNameStatus to lib/helper.js, migrated changedFiles and commitList, deleted old parseStatus.js; kept parseStatus temporarily for status.js (issue 02)"
   },
   {
     "id": "02",
