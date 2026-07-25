@@ -1,3 +1,11 @@
+## v1.3.0
+
+[compare changes](https://github.com/pixelastic/gilmore/compare/v1.2.2...v1.3.0)
+
+### Features
+
+Added **stagedFilesWithStatus** that gives more details (added, deleted, renamed, etc) to each staged files
+
 ## v1.2.2
 
 [compare changes](https://github.com/pixelastic/gilmore/compare/v1.2.1...v1.2.2)
