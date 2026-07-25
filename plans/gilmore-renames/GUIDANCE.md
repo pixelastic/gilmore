@@ -16,3 +16,8 @@
 - `--name-status` output uses tab-separated fields; `--short` uses space-separated — these need different parsers
 - `dedent` template literals don't preserve `\t` escape sequences reliably; use `[].join('\n')` for tab-containing test inputs
 - Correct relative import from `lib/methods/*.js` to `lib/helper.js` is `../helper.js` (one level up), not `../../helper.js`
+
+### Issue 03 — Staged files rename support
+- Modern git (2.9+) has `diff.renames=true` by default; rename tests must set `config diff.renames false` to ensure `-M` flag is the one doing the work
+- `writeFile(content, filepath)` takes content first, filepath second — opposite of what you might expect
+- Empty files confuse git rename detection — when testing mixed add+rename, give files distinct content so git doesn't match the wrong pair

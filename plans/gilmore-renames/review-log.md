@@ -37,3 +37,29 @@ if (symbol === 'R' && split[2] === '->') {
 ```
 **Problem:** If a rename line fails the `->` check, `R` is not in `symbolMapping` and falls through to produce `{ status: 'R' }`.
 **Reason skipped:** Out of scope. `R` with similarity suffix (e.g. `R100`) only occurs in `--name-status` format, not `--short`. The spec explicitly defines detection via `->` in `split[2]`.
+
+## Issue 03 — Staged files rename support
+### No early-return guard
+```javascript
+export async function stagedFilesWithStatus() {
+  const output = await this.run('diff --cached -M --name-status');
+  return parseNameStatus(output);
+}
+```
+**Problem:** No guard for empty/falsy output before calling parseNameStatus
+**Reason skipped:** parseNameStatus handles empty input gracefully — lodash chain splits empty string, compact removes it, returns []
+
+### Repeated test setup
+```javascript
+await repo.newFile('old.js');
+await repo.add('old.js');
+await repo.commit('add old.js');
+await repo.run('config diff.renames false');
+await repo.run('mv old.js new.js');
+```
+**Problem:** Three tests repeat similar rename setup, could use it.each or helper
+**Reason skipped:** Tests have different setups (empty vs rename vs mixed) and different assertions; it.each doesn't fit
+
+### Scaffolding tests missing from diff
+**Problem:** Spec agent flagged scaffolding tests as absent from diff
+**Reason skipped:** Tests exist at plans/gilmore-renames/scaffold/03-staged-files-rename-support.bats, just outside the lib/ diff scope
