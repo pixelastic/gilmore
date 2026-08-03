@@ -1,3 +1,13 @@
+## v1.4.0
+
+[compare changes](https://github.com/pixelastic/gilmore/compare/v1.3.0...v1.4.0)
+
+### Features
+
+- **run:** Support array input to safely handle filenames with spaces ([52bcbfe](https://github.com/pixelastic/gilmore/commit/52bcbfe))
+- **add:** Pass file arguments as array to prevent word-splitting on spaces ([30dcf15](https://github.com/pixelastic/gilmore/commit/30dcf15))
+- **readFile:** Use array form for git show to handle spaces in filepaths ([18b427d](https://github.com/pixelastic/gilmore/commit/18b427d))
+
 ## v1.3.0
 
 [compare changes](https://github.com/pixelastic/gilmore/compare/v1.2.2...v1.3.0)
