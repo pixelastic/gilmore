@@ -2,8 +2,9 @@
   {
     "id": "01",
     "issue": "issues/01-run-array-support.md",
-    "done": false,
-    "blocked_by": []
+    "done": true,
+    "blocked_by": [],
+    "recap": "run() now branches on array input: prepends 'git', passes to firost with explicit shell: false"
   },
   {
     "id": "02",
