@@ -9,8 +9,9 @@
   {
     "id": "02",
     "issue": "issues/02-add-array-form.md",
-    "done": false,
-    "blocked_by": ["01"]
+    "done": true,
+    "blocked_by": ["01"],
+    "recap": "add() uses return-early + array form for file args, preventing word-splitting on spaces"
   },
   {
     "id": "03",
