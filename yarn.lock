@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 10
   cacheKey: 10c0
 
 "@algolia/cache-browser-local-storage@npm:4.10.3":
@@ -6295,6 +6295,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chalk@npm:5.3.0, chalk@npm:^5.3.0":
+  version: 5.3.0
+  resolution: "chalk@npm:5.3.0"
+  checksum: 10c0/8297d436b2c0f95801103ff2ef67268d362021b8210daf8ddbe349695333eb3610a71122172ff3b0272f1ef2cf7cc2c41fdaa4715f52e49ffe04c56340feed09
+  languageName: node
+  linkType: hard
+
 "chalk@npm:5.6.2, chalk@npm:^5.4.1, chalk@npm:^5.6.2":
   version: 5.6.2
   resolution: "chalk@npm:5.6.2"
@@ -6346,13 +6353,6 @@ __metadata:
     ansi-styles: "npm:^4.1.0"
     supports-color: "npm:^7.1.0"
   checksum: 10c0/ee650b0a065b3d7a6fda258e75d3a86fc8e4effa55871da730a9e42ccb035bf5fd203525e5a1ef45ec2582ecc4f65b47eb11357c526b84dd29a14fb162c414d2
-  languageName: node
-  linkType: hard
-
-"chalk@npm:^5.3.0":
-  version: 5.3.0
-  resolution: "chalk@npm:5.3.0"
-  checksum: 10c0/8297d436b2c0f95801103ff2ef67268d362021b8210daf8ddbe349695333eb3610a71122172ff3b0272f1ef2cf7cc2c41fdaa4715f52e49ffe04c56340feed09
   languageName: node
   linkType: hard
 
@@ -7724,6 +7724,13 @@ __metadata:
   version: 1.10.6
   resolution: "dayjs@npm:1.10.6"
   checksum: 10c0/97d6b68edda28995f7ab98298635057f5e610408294b492d47f197903db5cca99a5d8974d38b93dd4457bb25bcceb044aacda5507dfbe1e3408fa359b09589d9
+  languageName: node
+  linkType: hard
+
+"dayjs@npm:1.11.13":
+  version: 1.11.13
+  resolution: "dayjs@npm:1.11.13"
+  checksum: 10c0/a3caf6ac8363c7dade9d1ee797848ddcf25c1ace68d9fe8678ecf8ba0675825430de5d793672ec87b24a69bf04a1544b176547b2539982275d5542a7955f35b7
   languageName: node
   linkType: hard
 
@@ -10859,7 +10866,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gilmore@npm:1.4.0, gilmore@workspace:lib":
+"gilmore@npm:1.4.0":
+  version: 1.4.0
+  resolution: "gilmore@npm:1.4.0"
+  dependencies:
+    firost: "npm:5.11.0"
+    golgoth: "npm:3.0.0"
+    parse-github-repo-url: "npm:1.4.1"
+  checksum: 10c0/90c64bab371bf62b573fecd100aa328b5654942bb43d6276dea4577a54bb63257179d95250d191e1ad11f7c6a5ed186bca5aef32b5f5276bca3efe836ddf77cc
+  languageName: node
+  linkType: hard
+
+"gilmore@workspace:lib":
   version: 0.0.0-use.local
   resolution: "gilmore@workspace:lib"
   dependencies:
@@ -11143,6 +11161,26 @@ __metadata:
     query-string: "npm:7.0.1"
     time-span: "npm:4.0.0"
   checksum: 10c0/625a654355e884f703dd4ae7a7ba3459619b784b29d4e939ed1ba0c405c4ae82f4833bfcccab07cb867a47b4865067f8abccf672442e6f1a17ff3473febfa52b
+  languageName: node
+  linkType: hard
+
+"golgoth@npm:3.0.0":
+  version: 3.0.0
+  resolution: "golgoth@npm:3.0.0"
+  dependencies:
+    chalk: "npm:5.3.0"
+    dayjs: "npm:1.11.13"
+    flat: "npm:6.0.1"
+    got: "npm:11.8.6"
+    lodash: "npm:4.17.21"
+    p-all: "npm:5.0.0"
+    p-map: "npm:7.0.2"
+    p-map-series: "npm:3.0.0"
+    p-props: "npm:6.0.0"
+    pify: "npm:6.1.0"
+    query-string: "npm:9.1.1"
+    time-span: "npm:5.1.0"
+  checksum: 10c0/877bcf14aa8ebd3edb706379ec79ce709db15b9f448e3129bea1b0b2701408f51fd7cd5cf5878f580b4c2bb39af84b22e462b722ad52b9dee3bd7d18e8d77967
   languageName: node
   linkType: hard
 
@@ -16495,6 +16533,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"p-all@npm:5.0.0":
+  version: 5.0.0
+  resolution: "p-all@npm:5.0.0"
+  dependencies:
+    p-map: "npm:^6.0.0"
+  checksum: 10c0/6d849af6e531a0c9a06d04c1bc995034ec9d6acaf8c704b732b709c37777eb9c8f00a3c87dd2bdd4ee7db2b7f2ece7c63a51b343544e234175497e5fba92e9a7
+  languageName: node
+  linkType: hard
+
 "p-all@npm:5.0.1":
   version: 5.0.1
   resolution: "p-all@npm:5.0.1"
@@ -16652,6 +16699,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"p-map@npm:7.0.2":
+  version: 7.0.2
+  resolution: "p-map@npm:7.0.2"
+  checksum: 10c0/e10548036648d1c043153f9997112fe5a7de54a319210238628f8ea22ee36587fd6ee740811f88b60bbf29d932e23ae35df7fced40df477116c84c18e797047e
+  languageName: node
+  linkType: hard
+
 "p-map@npm:7.0.4":
   version: 7.0.4
   resolution: "p-map@npm:7.0.4"
@@ -16688,6 +16742,15 @@ __metadata:
   dependencies:
     p-map: "npm:^4.0.0"
   checksum: 10c0/bfac50cf3feea4f2c1c0847412a6a05159de61e990fc1ee65d8f195bf23ed85d59cf1b9847a14a8d006fb64db3f213897816ece6514178558aa3f4fa70bef73b
+  languageName: node
+  linkType: hard
+
+"p-props@npm:6.0.0":
+  version: 6.0.0
+  resolution: "p-props@npm:6.0.0"
+  dependencies:
+    p-map: "npm:^6.0.0"
+  checksum: 10c0/9aacc5372e85076e7fe3cfca1e79819f66eadb13abcdd29a7702d1a7f0ea5c1771fdae92c858f73c357ef879e804acea8f7468a36f2a892a16e042fae407488d
   languageName: node
   linkType: hard
 
@@ -18363,6 +18426,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"query-string@npm:9.1.1":
+  version: 9.1.1
+  resolution: "query-string@npm:9.1.1"
+  dependencies:
+    decode-uri-component: "npm:^0.4.1"
+    filter-obj: "npm:^5.1.0"
+    split-on-first: "npm:^3.0.0"
+  checksum: 10c0/16481f17754f660aec3cae7abb838a70e383dfcf152414d184e0d0f81fae426acf112b4d51bf754f9c256eaf83ba4241241ba907c8d58b6ed9704425e1712e8c
+  languageName: node
+  linkType: hard
+
 "query-string@npm:9.3.1":
   version: 9.3.1
   resolution: "query-string@npm:9.3.1"
@@ -18848,21 +18922,21 @@ __metadata:
 
 "resolve@patch:resolve@npm%3A^1.1.7#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.12.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.14.2#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.15.1#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.17.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.19.0#optional!builtin<compat/resolve>":
   version: 1.20.0
-  resolution: "resolve@patch:resolve@npm%3A1.20.0#optional!builtin<compat/resolve>::version=1.20.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.20.0#optional!builtin<compat/resolve>::version=1.20.0&hash=9bd1a5"
   dependencies:
     is-core-module: "npm:^2.2.0"
     path-parse: "npm:^1.0.6"
-  checksum: 10c0/b6a5345d1f015cebba11dffa6a1982b39fe9ef42ed86ed832e51bd01c10817666df6d7b11579bc88664f5d57f2a5fe073a7f46b4e72a3efe7ed0cb450ee786da
+  checksum: 10c0/8785f235b48cf4c87c3c26cb8ee19e428e70bd7b8c697e2cb0ed2b0e8dc75ee44f556713cf7bb61cb3325312c3220794557ba3d8ad5e8d3404b081c7b60ecad3
   languageName: node
   linkType: hard
 
 "resolve@patch:resolve@npm%3A^2.0.0-next.1#optional!builtin<compat/resolve>":
   version: 2.0.0-next.3
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.3#optional!builtin<compat/resolve>::version=2.0.0-next.3&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.3#optional!builtin<compat/resolve>::version=2.0.0-next.3&hash=9bd1a5"
   dependencies:
     is-core-module: "npm:^2.2.0"
     path-parse: "npm:^1.0.6"
-  checksum: 10c0/ecd5da8e5f3042952bd9fd46725ef850144e7c3d707d963039df677809716660ccf5efa66742fbc6796d280c23d18915384fada76869a9c554e15cf1e6df9278
+  checksum: 10c0/d5a4380a0fc71831c634073d69b75eac9b2b83062e8bb9a273aeddd1f974807b13b62363cfd00fbd084b6a62a837f65f960b23744c0ad56d9047efcb29b4bba0
   languageName: node
   linkType: hard
 
