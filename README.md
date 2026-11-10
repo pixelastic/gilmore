@@ -36,4 +36,5 @@ The accepted options are as follow:
 
 ## Documentation
 
-The complete documentation can be found on https://projects.pixelastic.com/gilmore/
+The complete documentation can be found on
+https://projects.pixelastic.com/gilmore/
