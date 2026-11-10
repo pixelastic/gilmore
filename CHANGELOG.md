@@ -1,3 +1,9 @@
+## v1.4.3
+
+[compare changes](https://github.com/pixelastic/gilmore/compare/v1.4.2...v1.4.3)
+
+Dummy release to test the trusted publish workflow.
+
 ## v1.4.2
 
 [compare changes](https://github.com/pixelastic/gilmore/compare/v1.4.1...v1.4.2)
