@@ -1,3 +1,9 @@
+## v1.4.2
+
+[compare changes](https://github.com/pixelastic/gilmore/compare/v1.4.1...v1.4.2)
+
+Update internal dependencies.
+
 ## v1.4.1
 
 [compare changes](https://github.com/pixelastic/gilmore/compare/v1.4.0...v1.4.1)
